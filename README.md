@@ -3,12 +3,6 @@
 A subscription platform backend for serialized longform fiction. Authors
 publish series chapter-by-chapter; readers subscribe to tiered access.
 
-This is a **simulated business scenario** built to exercise the same backend
-primitives a premium VOD subscription product needs — identity, tiered
-entitlement gating, content catalog with a publish state machine, per-user
-consumption state, signed-URL asset delivery, idempotent payment webhooks, and
-role-split admin tooling — without touching the original product domain.
-
 ## Stack
 
 - Node.js 20+, TypeScript (strict, `noUncheckedIndexedAccess`), ESM
